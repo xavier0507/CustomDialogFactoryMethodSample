@@ -1,0 +1,9 @@
+<resources>
+	<string name="app_name">DialogFactory</string>
+
+	<string name="action_ok">確 定</string>
+	<string name="action_cancel">取 消</string>
+
+	<string name="custom_dialog_text_login_title">登入</string>
+	<string name="custom_dialog_text_login_message">是否需要登入？</string>
+</resources>

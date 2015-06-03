@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:background="@drawable/custom_bg_corner_for_dialog"
+			  android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/text_common_double_title"
+		style="@style/CommonMediumText.White"
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:background="@drawable/custom_bg_corner_for_dialog_title"
+		android:gravity="center"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/general_default_black"/>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="150dp"
+		android:layout_margin="8dp">
+
+		<TextView
+			android:id="@+id/text_common_double_less_message"
+			style="@style/CommonMediumText"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:singleLine="true"
+			android:visibility="invisible"/>
+
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="150dp">
+
+			<TextView
+				android:id="@+id/text_common_double_more_message"
+				style="@style/CommonMediumText"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:visibility="invisible"/>
+		</ScrollView>
+	</FrameLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:layout_marginBottom="8dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/text_common_double_negative_action"
+			style="@style/CommonMediumText.White"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_marginRight="4dp"
+			android:layout_weight="1"
+			android:background="@drawable/custom_bg_corner_for_dialog_negative_button"
+			android:gravity="center"
+			android:maxHeight="48dp"/>
+
+		<TextView
+			android:id="@+id/text_common_double_positive_action"
+			style="@style/CommonMediumText.White"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="4dp"
+			android:layout_weight="1"
+			android:background="@drawable/custom_bg_corner_for_dialog_positive_button"
+			android:gravity="center"
+			android:maxHeight="48dp"/>
+	</LinearLayout>
+</LinearLayout>

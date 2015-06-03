@@ -1,0 +1,16 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+	</style>
+
+	<style name="CommonMediumText">
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+		<item name="android:textColor">@color/general_default_black</item>
+	</style>
+
+	<style name="CommonMediumText.White">
+		<item name="android:textColor">@color/general_default_white</item>
+	</style>
+</resources>
